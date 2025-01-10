@@ -1,0 +1,95 @@
+/* General reset and body styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Parallax container for background */
+.parallax-container {
+    background: url('data/sunset.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    position: relative;
+}
+
+/* Content box styling */
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2; /* Ensure content is above the background */
+}
+
+/* Chapter list styling */
+.chapter-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Individual chapter item */
+.chapter-item {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black; /* Change text color to black */
+    background: #6A0DAD;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.chapter-item:hover {
+    transform: scale(1.05);
+    background: #8B5FBF;
+}
+
+/* Title styling */
+h1 {
+    font-family: 'Ebrima', sans-serif;
+    color: #6A0DAD;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: black; /* Change text color to black */
+}
+
+/* Back button styling (Left Arrow <) */
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 2rem;
+    color: #6A0DAD; /* Purple color */
+    background-color: transparent; /* No background */
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+    z-index: 3; /* Make sure it stays on top */
+}
+
+/* Background styling */
+body {
+    background-image: url('your-background-image.jpg'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black; /* Set body text to black */
+    min-height: 100vh; /* Ensure background covers full viewport */
+}
