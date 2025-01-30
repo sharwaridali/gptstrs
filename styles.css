@@ -17,7 +17,7 @@ body, html {
     position: relative;
 }
 .parallax-container-o {
-    background: url('data/library.png') no-repeat center center fixed;
+    background: url('data/lib2.png') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -27,6 +27,16 @@ body, html {
 }
 .parallax-container-a{
     background: url('data/sgwdy_eira.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    position: relative;
+
+}
+.parallax-container-b{
+    background: url('data/ball.png') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -59,7 +69,7 @@ body, html {
 .chapter-item {
     text-decoration: none;
     font-size: 1.2em;
-    color: white; /* Change text color to black */
+    color: black; /* Change text color to black */
     background: #6A0DAD;
     padding: 10px 20px;
     border-radius: 10px;
