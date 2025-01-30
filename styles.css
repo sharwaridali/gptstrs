@@ -111,6 +111,29 @@ p {
     transition: color 0.3s, transform 0.3s;
     z-index: 3; /* Make sure it stays on top */
 }
+.back-btn:hover {
+    color: #8B5FC1; /* Lighter purple for hover effect */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.forward-btn {
+    position: absolute;
+    bottom: 20px; /* Adjust positioning as needed */
+    right: 20px; /* Center it horizontally */
+    font-size: 2rem;
+    color: #6A0DAD; /* Purple color */
+    background-color: transparent; /* No background */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+    z-index: 3; /* Keep it above other elements */
+}
+
+.forward-btn:hover {
+    color: #8B5FC1; /* Lighter purple for hover effect */
+    transform: scale(1.1); /* Slight zoom effect */
+}
 
 /* Background styling */
 body {
