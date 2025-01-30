@@ -17,7 +17,7 @@ body, html {
     position: relative;
 }
 .parallax-container-o {
-    background: url('data/lib2.png') no-repeat center center fixed;
+    background: url('data/library.png') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
