@@ -55,6 +55,16 @@ body, html {
     position: relative;
 
 }
+.parallax-container-d{
+    background: url('data/minack.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    position: relative;
+
+}
 
 /* Content box styling */
 .content {
