@@ -66,6 +66,28 @@ body, html {
 
 }
 
+.parallax-container-e{
+    background: url('data/aiden.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    position: relative;
+
+}
+
+.parallax-container-f{
+    background: url('data/shery1.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    position: relative;
+
+}
+
 /* Content box styling */
 .content {
     background-color: rgba(255, 255, 255, 0.8);
